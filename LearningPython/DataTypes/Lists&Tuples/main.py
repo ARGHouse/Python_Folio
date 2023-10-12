@@ -1,16 +1,17 @@
-# This is a sample Python script.
+# List - Can be changed
+hr_list = [ 'O', 'B', 'A', 'F', 'G', 'K', 'M', 'L', 'T', 'Y']
+print(len(hr_list))
+hr_list.reverse()
+hr_list.append( 'CR')
+print(hr_list)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#tuple - constant, cannot be changed
 
+my_tuple = ( "It's full of stars!", [ 'OBAFGKM', 'LTY'] )
+print(my_tuple)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#pick an element from the list
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+my_list = [ 1, 2, 3, 4 ]
+print(my_list[0])
+print(my_tuple[1][0])
